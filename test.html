@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+
+  <title>testing</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container">
+    <div class="row">
+
+		<p>Что значит данное слово/иероглиф?</p>
+
+		<div class="input-group mb-3">
+  		<div class="input-group-prepend">
+    		<label class="input-group-text" for="inputGroupSelect01" id="quiz01">Options</label>
+  		</div>
+  		<select class="custom-select" id="inputGroupSelect01">
+  		    <option selected id="default01">Выберите правильный вариант...</option>
+  		    <option value="1" class="options01">One</option>
+    		<option value="2" class="options01">Two</option>
+    		<option value="3" class="options01">Three</option>
+    		<option value="4" class="options01">Three</option>
+    		<option value="5" class="options01">Three</option>
+
+  		</select>
+		</div>
+
+
+	</div>
+
+	<div class="row">
+
+		<div class="input-group mb-3">
+  		<div class="input-group-prepend">
+    		<label class="input-group-text" for="inputGroupSelect01" id="quiz02">Options</label>
+  		</div>
+  		<select class="custom-select" id="inputGroupSelect02">
+  		    <option selected id="default">Выберите правильный вариант...</option>
+  		    <option value="1" class="options02">One</option>
+    		<option value="2" class="options02">Two</option>
+    		<option value="3" class="options02">Three</option>
+    		<option value="4" class="options02">Three</option>
+    		<option value="5" class="options02">Three</option>
+
+  		</select>
+		</div>
+
+		<button id = "check" type="button" >Проверить</button>
+    <!-- <button id="again" type="button" onclick="myFuncnum()">Снова</button><div display="inline-block" id="uranswers"></div> -->
+		<button id="again" type="button" >Снова</button><div display="inline-block" id="uranswers"></div>
+
+
+	</div>
+
+  <div id="check-info" class = "info">
+
+  </div>
+
+</div>
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="quiz.js"></script>
+</body>
+
+</html>
